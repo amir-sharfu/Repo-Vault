@@ -32,4 +32,4 @@ Each category file contains a table with:
 - **Description** — What it does
 - **Added** — Date added
 
-> Maintained by [@your-username](https://github.com/your-username)
+> Maintained by [@amir-sharfu](https://github.com/amir-sharfu)
