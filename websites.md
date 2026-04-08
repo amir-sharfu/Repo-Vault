@@ -36,3 +36,4 @@
 
 | Site | URL | Description | Tags | Added |
 |------|-----|-------------|------|-------|
+| Trigger.dev | [trigger.dev](https://trigger.dev/) | Infrastructure for long-running background jobs — write async tasks as plain functions, no timeouts, auto-retry, real-time dashboard; ideal for AI agents, data pipelines, and webhook logic — [notes](./notes/trigger-dev.md) | `backend` `jobs` `ai` `infrastructure` `typescript` | 2026-04-06 |
