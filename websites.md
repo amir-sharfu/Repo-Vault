@@ -6,7 +6,7 @@
 
 | Site | URL | Description | Tags | Added |
 |------|-----|-------------|------|-------|
-| Awwwards | [awwwards.com](https://www.awwwards.com/) | Web design awards platform — showcases award-winning sites (SOTD, Honorable Mentions), design trends, agency directory, and dev/design Academy courses | `design` `inspiration` `awards` `frontend` | 2026-04-06 |
+| Awwwards | [awwwards.com](https://www.awwwards.com/) | Web design awards platform — showcases award-winning sites (SOTD, Honorable Mentions), design trends, agency directory, and dev/design Academy courses — [notes](./notes/awwwards.md) | `design` `inspiration` `awards` `frontend` | 2026-04-06 |
 
 ---
 
