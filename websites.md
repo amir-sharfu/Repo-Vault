@@ -28,6 +28,7 @@
 
 | Site | URL | Description | Tags | Added |
 |------|-----|-------------|------|-------|
+| Pinecone | [pinecone.io](https://www.pinecone.io/) | Serverless vector database for production-scale AI — supports semantic search, hybrid search, RAG, and agent apps; integrates with major cloud providers; SOC2/GDPR/HIPAA compliant | `ai` `vector-db` `rag` `infrastructure` `search` | 2026-04-06 |
 
 ---
 
