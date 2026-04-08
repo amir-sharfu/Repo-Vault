@@ -29,6 +29,7 @@
 | Site | URL | Description | Tags | Added |
 |------|-----|-------------|------|-------|
 | Pinecone | [pinecone.io](https://www.pinecone.io/) | Serverless vector database for production-scale AI — supports semantic search, hybrid search, RAG, and agent apps; integrates with major cloud providers; SOC2/GDPR/HIPAA compliant — [notes](./notes/pinecone.md) | `ai` `vector-db` `rag` `infrastructure` `search` | 2026-04-06 |
+| 21st.dev | [21st.dev](https://21st.dev/) | React component registry + agent infrastructure SDK for AI apps — handles sandboxing, streaming, auth, observability; 1.4M developers, YC-backed — [notes](./notes/21st-dev.md) | `ai` `agents` `sdk` `react` `components` `infrastructure` | 2026-04-06 |
 
 ---
 
