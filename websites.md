@@ -14,6 +14,7 @@
 
 | Site | URL | Description | Tags | Added |
 |------|-----|-------------|------|-------|
+| Beehiiv | [beehiiv.com](https://www.beehiiv.com/) | All-in-one newsletter platform — writing, no-code website, referral growth, ad network monetization, and analytics; 135k+ publishers, $45M+ earned by creators; free up to 2,500 subs — [notes](./notes/beehiiv.md) | `newsletter` `creator` `monetization` `growth` `email` | 2026-04-09 |
 
 ---
 
