@@ -42,3 +42,4 @@
 | Site | URL | Description | Tags | Added |
 |------|-----|-------------|------|-------|
 | Trigger.dev | [trigger.dev](https://trigger.dev/) | Infrastructure for long-running background jobs — write async tasks as plain functions, no timeouts, auto-retry, real-time dashboard; ideal for AI agents, data pipelines, and webhook logic — [notes](./notes/trigger-dev.md) | `backend` `jobs` `ai` `infrastructure` `typescript` | 2026-04-06 |
+| Sentry MCP Demo | [mcp.sentry.dev](https://mcp.sentry.dev/?ide=claude-code) | Sentry error tracking in Claude Code — list issues, inspect stack traces, resolve errors directly in Claude via MCP server; eliminates browser context-switching for on-call triage — [notes](./notes/sentry-mcp.md) | `error-tracking` `debugging` `mcp` `claude-code` `devops` | 2026-04-17 |
