@@ -25,11 +25,28 @@ Goose is an open-source AI agent that takes a plain-language task from you, then
 
 ## How It Works
 
-```
-You  ──[plain language task]──►  Goose  ──[done]──►  Completed Task
-                                   │  ▲
-                              ┌────┴────┐
-                         Terminal  Files  Web
+```mermaid
+flowchart LR
+    subgraph House["🏠 Your Local Machine"]
+        You([You]) -->|plain language task| Goose
+
+        subgraph Goose Engine
+            Goose[Goose Agent]
+            Goose <-->|read/write| Files[File System]
+            Goose <-->|run commands| Terminal[Terminal / Shell]
+            Goose <-->|search & browse| Web[Web / Browser]
+        end
+
+        Goose -->|task complete| Result([Done])
+    end
+
+    style Goose fill:#d0bfff,stroke:#8b5cf6,color:#1e1e1e
+    style Files fill:#ffd8a8,stroke:#f59e0b,color:#1e1e1e
+    style Terminal fill:#ffd8a8,stroke:#f59e0b,color:#1e1e1e
+    style Web fill:#ffd8a8,stroke:#f59e0b,color:#1e1e1e
+    style You fill:#a5d8ff,stroke:#4a9eed,color:#1e1e1e
+    style Result fill:#b2f2bb,stroke:#22c55e,color:#1e1e1e
+    style House fill:#f8f9fa,stroke:#495057,stroke-width:2px,color:#1e1e1e
 ```
 
 Goose runs a loop internally:
@@ -41,6 +58,8 @@ Goose runs a loop internally:
 3. Searches npm docs, picks a library, installs it, edits your files
 4. Runs your tests — if they fail, it reads the error and fixes it
 5. Reports back when complete
+
+[Open interactive diagram on Excalidraw](https://excalidraw.com/#json=0bTTvx0Hogauau6i0EJaA,TRSUmv1A9HiUTj7hkI6YEQ)
 
 ---
 
@@ -81,34 +100,3 @@ Goose runs a loop internally:
 - Tasks needing deep architectural judgment calls
 - Environments where running arbitrary shell commands is a risk
 
----
-
-## Workflow Diagram
-
-```mermaid
-flowchart LR
-    subgraph House["🏠 Your Local Machine"]
-        You([You]) -->|plain language task| Goose
-
-        subgraph Goose Engine
-            Goose[Goose Agent]
-            Goose <-->|read/write| Files[File System]
-            Goose <-->|run commands| Terminal[Terminal / Shell]
-            Goose <-->|search & browse| Web[Web / Browser]
-        end
-
-        Goose -->|task complete| Result([Done])
-    end
-
-    style Goose fill:#d0bfff,stroke:#8b5cf6,color:#1e1e1e
-    style Files fill:#ffd8a8,stroke:#f59e0b,color:#1e1e1e
-    style Terminal fill:#ffd8a8,stroke:#f59e0b,color:#1e1e1e
-    style Web fill:#ffd8a8,stroke:#f59e0b,color:#1e1e1e
-    style You fill:#a5d8ff,stroke:#4a9eed,color:#1e1e1e
-    style Result fill:#b2f2bb,stroke:#22c55e,color:#1e1e1e
-    style House fill:#f8f9fa,stroke:#495057,stroke-width:2px,color:#1e1e1e
-```
-
-> Goose loops internally — **plan → act → observe → adjust → repeat** — until the task is done.
-
-[Open interactive diagram on Excalidraw](https://excalidraw.com/#json=0bTTvx0Hogauau6i0EJaA,TRSUmv1A9HiUTj7hkI6YEQ)
