@@ -22,7 +22,7 @@
 |----------|------|-------|
 | Security | Repo | 1 |
 | Automation | Repo | 0 |
-| AI & ML | Repo | 0 |
+| AI & ML | Repo | 1 |
 | Dev Tools | Repo | 0 |
 | Learning | Repo | 0 |
 | Websites | Site | 9 |
@@ -35,6 +35,7 @@
 - **Repo** — Link to the repository
 - **Stars** — Approximate star count at time of adding
 - **Description** — What it does
+- **Notes** — Deep-dive note (use case, why it matters, diagram)
 - **Added** — Date added
 
 **Websites** — The `websites.md` file contains a table with:

@@ -2,5 +2,6 @@
 
 > Artificial intelligence, machine learning frameworks, LLM tools, and model resources.
 
-| Repo | Stars | Description | Added |
-|------|-------|-------------|-------|
+| Repo | Stars | Description | Notes | Added |
+|------|-------|-------------|-------|-------|
+| [goose](https://github.com/block/goose) | 13k+ | Open-source autonomous AI coding agent — runs locally, reads your codebase, executes shell commands, browses the web, and completes tasks end-to-end | [notes](./repo-insider/goose/README.md) | 2026-04-29 |
