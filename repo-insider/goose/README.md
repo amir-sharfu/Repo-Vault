@@ -87,16 +87,18 @@ Goose runs a loop internally:
 
 ```mermaid
 flowchart LR
-    You([You]) -->|plain language task| Goose
+    subgraph House["🏠 Your Local Machine"]
+        You([You]) -->|plain language task| Goose
 
-    subgraph Goose Engine
-        Goose[Goose Agent]
-        Goose <-->|read/write| Files[File System]
-        Goose <-->|run commands| Terminal[Terminal / Shell]
-        Goose <-->|search & browse| Web[Web / Browser]
+        subgraph Goose Engine
+            Goose[Goose Agent]
+            Goose <-->|read/write| Files[File System]
+            Goose <-->|run commands| Terminal[Terminal / Shell]
+            Goose <-->|search & browse| Web[Web / Browser]
+        end
+
+        Goose -->|task complete| Result([Done])
     end
-
-    Goose -->|task complete| Result([Done])
 
     style Goose fill:#d0bfff,stroke:#8b5cf6,color:#1e1e1e
     style Files fill:#ffd8a8,stroke:#f59e0b,color:#1e1e1e
@@ -104,6 +106,7 @@ flowchart LR
     style Web fill:#ffd8a8,stroke:#f59e0b,color:#1e1e1e
     style You fill:#a5d8ff,stroke:#4a9eed,color:#1e1e1e
     style Result fill:#b2f2bb,stroke:#22c55e,color:#1e1e1e
+    style House fill:#f8f9fa,stroke:#495057,stroke-width:2px,color:#1e1e1e
 ```
 
 > Goose loops internally — **plan → act → observe → adjust → repeat** — until the task is done.
