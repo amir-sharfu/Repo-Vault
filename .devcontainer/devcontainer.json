@@ -1,0 +1,33 @@
+{
+  "name": "Goose Playground",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "installOhMyZsh": true,
+      "upgradePackages": true
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
+  },
+  "postCreateCommand": "curl -fsSL https://github.com/block/goose/releases/latest/download/install.sh | sh && echo 'Goose installed! Run: goose session' >> /etc/motd",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "GitHub.copilot"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      }
+    }
+  },
+  "remoteEnv": {
+    "GOOSE_PROVIDER": "${localEnv:GOOSE_PROVIDER}",
+    "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",
+    "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}"
+  },
+  "forwardPorts": [],
+  "portsAttributes": {}
+}

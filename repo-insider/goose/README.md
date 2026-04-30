@@ -4,6 +4,22 @@
 > **Stars:** 13k+ | **License:** Apache 2.0 | **Built by:** Block (formerly Square)
 > **Runs:** Locally on your machine — no code leaves unless you push it
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/amir-sharfu/repo-vault)
+
+---
+
+## Try It — No Install Required
+
+Click the badge above → GitHub spins up a browser-based VS Code with Goose pre-installed.
+
+**Steps after it opens:**
+1. Open the terminal (`Ctrl+`` `)
+2. Run `goose session`
+3. Enter your LLM API key when prompted (Anthropic, OpenAI, or Gemini)
+4. Give Goose a task — it runs right there in the browser
+
+> You only need an API key. No local install, no dependency setup.
+
 ---
 
 ## What is it?
