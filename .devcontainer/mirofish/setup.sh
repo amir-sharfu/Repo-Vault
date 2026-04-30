@@ -5,6 +5,14 @@ echo "============================================"
 echo " MiroFish Playground — Setup Starting"
 echo "============================================"
 
+# Load keys from repo-vault .env file if it exists
+if [ -f "/workspaces/repo-vault/.env" ]; then
+  echo "Loading API keys from /workspaces/repo-vault/.env..."
+  set -a
+  source /workspaces/repo-vault/.env
+  set +a
+fi
+
 # Step 1: Install uv (Python package manager required by MiroFish)
 echo ""
 echo "[1/4] Installing uv..."
