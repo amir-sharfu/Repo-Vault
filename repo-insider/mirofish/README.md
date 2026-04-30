@@ -4,6 +4,26 @@
 > **Stars:** ![Stars](https://img.shields.io/github/stars/666ghj/MiroFish?style=flat-square) | **License:** AGPL-3.0 | **Built by:** Guo Hangjiang (BaiFu), senior undergrad student, China
 > **Runs:** Locally via Docker or source — Python backend + Vue frontend
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/amir-sharfu/repo-vault?devcontainer_path=.devcontainer%2Fmirofish%2Fdevcontainer.json)
+
+---
+
+## Try It — No Install Required
+
+Click the badge above → GitHub spins up a browser-based VS Code with MiroFish fully installed.
+
+**Steps after it opens:**
+1. Open the terminal (`Ctrl+`` `)
+2. Edit `/workspaces/MiroFish/.env` — add your `LLM_API_KEY` and `ZEP_API_KEY`
+3. Run `cd /workspaces/MiroFish && npm run dev`
+4. Port 3000 opens automatically in your browser — MiroFish is live
+
+**Get your API keys (free tiers available):**
+- `LLM_API_KEY` — [Alibaba Qwen via Bailian](https://bailian.console.aliyun.com/) (recommended) or [OpenAI](https://platform.openai.com/api-keys)
+- `ZEP_API_KEY` — [Zep Cloud](https://www.getzep.com/) (agent memory)
+
+> Prefer to skip setup? Add `LLM_API_KEY` and `ZEP_API_KEY` to your [Codespaces Secrets](https://github.com/settings/codespaces) — they inject automatically on every launch.
+
 ---
 
 ## What is it?

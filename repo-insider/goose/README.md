@@ -4,7 +4,7 @@
 > **Stars:** ![Stars](https://img.shields.io/github/stars/block/goose?style=flat-square) | **License:** Apache 2.0 | **Built by:** Block (formerly Square)
 > **Runs:** Locally on your machine — no code leaves unless you push it
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/amir-sharfu/repo-vault)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/amir-sharfu/repo-vault?devcontainer_path=.devcontainer%2Fgoose%2Fdevcontainer.json)
 
 ---
 
