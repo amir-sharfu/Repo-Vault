@@ -1,7 +1,7 @@
 # MiroFish — Swarm Intelligence Prediction Engine
 
 > **Repo:** [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
-> **Stars:** 58.3k+ | **License:** AGPL-3.0 | **Built by:** Guo Hangjiang (BaiFu), senior undergrad student, China
+> **Stars:** ![Stars](https://img.shields.io/github/stars/666ghj/MiroFish?style=flat-square) | **License:** AGPL-3.0 | **Built by:** Guo Hangjiang (BaiFu), senior undergrad student, China
 > **Runs:** Locally via Docker or source — Python backend + Vue frontend
 
 ---
@@ -88,6 +88,18 @@ flowchart LR
 | Geopolitical | Diplomatic document or news event | Predicted cascade of reactions across simulated factions |
 | Story/novel | Chapter or plot summary | Agents play out the rest — generates a predicted ending |
 | Product launch | Announcement copy | Simulated customer segment reactions before you publish |
+
+---
+
+## MiroFish vs Alternatives
+
+| Tool | Approach | Agent Scale | Local? | Best For |
+|------|----------|-------------|--------|---------|
+| **MiroFish** | Swarm simulation | 1,000s of agents | Yes | Emergent social, market, and opinion prediction |
+| GPT / Claude prompting | Single LLM | 1 | No | Quick gut-check — fast but shallow |
+| Traditional surveys | Human respondents | Hundreds | N/A | Real opinions, but slow and expensive |
+| LangGraph / CrewAI | Custom agent pipelines | Configurable | Yes | Custom workflows — you build the logic yourself |
+| Consensus / Metaculus | Prediction markets | Crowd | No | Aggregated human forecasting |
 
 ---
 

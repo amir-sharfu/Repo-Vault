@@ -1,7 +1,7 @@
 # Goose — Open-Source Autonomous AI Coding Agent
 
 > **Repo:** [block/goose](https://github.com/block/goose)
-> **Stars:** 13k+ | **License:** Apache 2.0 | **Built by:** Block (formerly Square)
+> **Stars:** ![Stars](https://img.shields.io/github/stars/block/goose?style=flat-square) | **License:** Apache 2.0 | **Built by:** Block (formerly Square)
 > **Runs:** Locally on your machine — no code leaves unless you push it
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/amir-sharfu/repo-vault)
@@ -101,6 +101,18 @@ Goose runs a loop internally:
 | Research + implement | "Add rate limiting to my Express app" | Searches npm, picks a library, installs it, wires it in |
 | Refactor | "Migrate all fetch() calls in /src to axios" | Reads all files, rewrites them, verifies nothing was missed |
 | DevOps | "Write a GitHub Actions CI workflow" | Creates `.github/workflows/ci.yml` with correct config |
+
+---
+
+## Goose vs Alternatives
+
+| Tool | Type | Runs Locally | Executes Code | Best For |
+|------|------|-------------|---------------|---------|
+| **Goose** | Autonomous agent | Yes | Yes — full shell | End-to-end tasks with full local control |
+| Cursor | IDE AI assistant | Yes | Limited (terminal panel) | Real-time pair programming while you type |
+| GitHub Copilot | Autocomplete | No | No | Inline suggestions, single-file edits |
+| Devin | Cloud agent | No | Yes — sandboxed | Fully managed tasks, no local setup needed |
+| Claude Code | CLI agent | Yes | Yes — full shell | Interactive dev tasks, tight editor integration |
 
 ---
 
