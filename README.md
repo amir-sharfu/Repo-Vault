@@ -20,10 +20,10 @@
 
 | Category | Type | Count |
 |----------|------|-------|
-| Security | Repo | 1 |
-| Automation | Repo | 3 |
-| AI & ML | Repo | 2 |
-| Dev Tools | Repo | 3 |
+| Security | Repo | 2 |
+| Automation | Repo | 6 |
+| AI & ML | Repo | 6 |
+| Dev Tools | Repo | 6 |
 | Learning | Repo | 3 |
 | Websites | Site | 9 |
 

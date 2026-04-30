@@ -4,8 +4,6 @@
 > **Stars:** ![Stars](https://img.shields.io/github/stars/666ghj/MiroFish?style=flat-square) | **License:** AGPL-3.0 | **Built by:** Guo Hangjiang (BaiFu), senior undergrad student, China
 > **Runs:** Locally via Docker or source — Python backend + Vue frontend
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/amir-sharfu/repo-vault?devcontainer_path=.devcontainer%2Fmirofish%2Fdevcontainer.json)
-
 ---
 
 ## Try It — No Install Required
