@@ -22,7 +22,7 @@
 |----------|------|-------|
 | Security | Repo | 1 |
 | Automation | Repo | 0 |
-| AI & ML | Repo | 1 |
+| AI & ML | Repo | 2 |
 | Dev Tools | Repo | 0 |
 | Learning | Repo | 0 |
 | Websites | Site | 9 |
