@@ -6,9 +6,9 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/Repos-51-6366f1?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Repos-53-6366f1?style=for-the-badge" />
 &nbsp;
-<img src="https://img.shields.io/badge/Deep--Dives-42-8b5cf6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Deep--Dives-44-8b5cf6?style=for-the-badge" />
 &nbsp;
 <img src="https://img.shields.io/badge/Websites-9-10b981?style=for-the-badge" />
 
@@ -26,7 +26,7 @@
 &nbsp;
 <a href="#automation"><img src="https://img.shields.io/badge/⚙️_Automation-7_repos-f59e0b?style=flat-square&labelColor=1e1e2e" /></a>
 &nbsp;
-<a href="#dev-tools"><img src="https://img.shields.io/badge/🛠️_Dev_Tools-21_repos-3b82f6?style=flat-square&labelColor=1e1e2e" /></a>
+<a href="#dev-tools"><img src="https://img.shields.io/badge/🛠️_Dev_Tools-23_repos-3b82f6?style=flat-square&labelColor=1e1e2e" /></a>
 &nbsp;
 <a href="#security"><img src="https://img.shields.io/badge/🔒_Security-2_repos-ef4444?style=flat-square&labelColor=1e1e2e" /></a>
 &nbsp;
@@ -128,7 +128,7 @@
 <a name="dev-tools"></a>
 ## 🛠️ Dev Tools
 
-<img src="https://img.shields.io/badge/Claude_Code_Ecosystem-7_repos-3b82f6?style=flat-square" />
+<img src="https://img.shields.io/badge/Claude_Code_Ecosystem-9_repos-3b82f6?style=flat-square" />
 
 | Repo | What It Is | Deep-Dive |
 |------|-----------|-----------|
@@ -139,6 +139,8 @@
 | [Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 131+ specialist subagent definitions — drop into .claude/ and use immediately | [notes](./repo-insider/awesome-claude-code-subagents/README.md) |
 | [claude-usage](https://github.com/phuryn/claude-usage) | Local dashboard for Claude Code token history and cost estimates | [notes](./repo-insider/claude-usage/README.md) |
 | [Claude Usage Monitor](https://github.com/Gronsten/claude-usage-monitor) | VS Code extension showing Claude usage in the status bar | [notes](./repo-insider/claude-usage-monitor/README.md) |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent memory across sessions — captures observations, injects context at session start; 70k+ stars | [notes](./repo-insider/claude-mem/README.md) |
+| [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) | 48 subagents + 182 skills + AgentShield security — opinionated system for consistent AI coding; 140k+ stars | [notes](./repo-insider/everything-claude-code/README.md) |
 
 <br>
 
@@ -214,16 +216,16 @@
 |----------|---------|
 | 🤖 AI & ML | <img src="https://img.shields.io/badge/18%2F18_deep--dives-complete-6366f1?style=flat-square" /> |
 | ⚙️ Automation | <img src="https://img.shields.io/badge/4%2F7_deep--dives-in_progress-f59e0b?style=flat-square" /> |
-| 🛠️ Dev Tools | <img src="https://img.shields.io/badge/18%2F21_deep--dives-in_progress-3b82f6?style=flat-square" /> |
+| 🛠️ Dev Tools | <img src="https://img.shields.io/badge/20%2F23_deep--dives-in_progress-3b82f6?style=flat-square" /> |
 | 🔒 Security | <img src="https://img.shields.io/badge/2%2F2_deep--dives-complete-ef4444?style=flat-square" /> |
 | 📚 Learning | <img src="https://img.shields.io/badge/0%2F3_deep--dives-not_started-6b7280?style=flat-square" /> |
 | 🌐 Websites | <img src="https://img.shields.io/badge/9%2F9_notes-complete-10b981?style=flat-square" /> |
 
 <br>
 
-<img src="https://img.shields.io/badge/Total_Repos-51-1e1e2e?style=flat-square" />
+<img src="https://img.shields.io/badge/Total_Repos-53-1e1e2e?style=flat-square" />
 &nbsp;
-<img src="https://img.shields.io/badge/Total_Deep--Dives-42-1e1e2e?style=flat-square" />
+<img src="https://img.shields.io/badge/Total_Deep--Dives-44-1e1e2e?style=flat-square" />
 &nbsp;
 <img src="https://img.shields.io/badge/Total_Website_Notes-9-1e1e2e?style=flat-square" />
 
@@ -237,6 +239,6 @@
 
 **Get the full picture on a repo** → click any **notes** link to open its `repo-insider/` deep-dive — diagram, problem/solution, features, use cases, and when to use it.
 
-**Browse all deep-dives at once** → [`repo-insider/README.md`](./repo-insider/README.md) — full categorised index of all 42 deep-dives.
+**Browse all deep-dives at once** → [`repo-insider/README.md`](./repo-insider/README.md) — full categorised index of all 44 deep-dives.
 
 **Explore a website** → click the **notes** link in the Website Notes table to open its `notes/` file.
